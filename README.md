@@ -34,7 +34,7 @@ It was very difficult, after the absence of some classes due to work, to underst
 
 ## Picture of the finished work 
 
-![Picture of Coding Quiz]()
+![Picture of Coding Quiz](https://github.com/amarfiguig/04-Web-APIs/blob/main/Assets/Image/work.gif)
 
 
 ## License
