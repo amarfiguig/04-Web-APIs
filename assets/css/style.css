@@ -90,12 +90,10 @@ button {
 /* he background image */
 #style-bg{
     box-sizing: border-box;
-    background-color: grey;
     background-image: url(/04-Web-APIs/assets/images/Quiz.jpg);
     background-size: cover;
     background-position: center center;
     background-blend-mode: multiply;
-    background-repeat: no-repeat;
 }
 /* The style of he quiz */
 #game-homepage {
