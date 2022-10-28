@@ -1,0 +1,172 @@
+:root {
+    --dark: #2bff00;
+    --light: #0028c1;
+    border-radius: 50%;
+    
+  }
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: #8b0f54;
+}
+
+header {
+    text-align: center;
+    background-color: #ffffffc7;
+    padding: 50px;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+span {
+  background: #00a6ff;
+  padding: 1.5rem;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+span:hover {
+  background: #00ff2c;
+  padding: 1.8rem;
+  display: inline-block;
+}
+
+span.quiz {
+    font-family: fantasy;
+    color: #ff9800;
+    font-size: 50px;
+    animation: jump-shaking 2s infinite;
+}
+
+span:hover {
+    font-family: fantasy;
+    color: #ff9800;
+    font-size: 60px;
+    animation: jump-shaking 0.90s infinite;
+}
+
+
+@keyframes jump-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateY(-9px) }
+  35% { transform: translateY(-9px) rotate(17deg) }
+  55% { transform: translateY(-9px) rotate(-17deg) }
+  65% { transform: translateY(-9px) rotate(17deg) }
+  75% { transform: translateY(-9px) rotate(-17deg) }
+  100% { transform: translateY(0) rotate(0) }
+}
+
+/* element container */
+main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+/* Btton and timer  */
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* The buttons across */
+button {
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 13px;
+    border-radius: 50px;
+    font-family: Arial;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/* the highscores button */
+#home-scores{
+    margin: auto;
+}
+/* he background image */
+#style-bg{
+    box-sizing: border-box;
+    background-color: grey;
+    background-image: url(/assets/images/Quiz.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+/* The style of he quiz */
+#game-homepage {
+    background-color: #ffc107;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 5px;
+}
+
+main div .ques {
+    padding: 20px;
+}
+
+#quiz {
+    background-color: #ffffff;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+/* JavaScript file */
+#options {
+    display: flex;
+    flex-direction: column;  
+}
+
+#message{
+    font-size: larger;
+}
+
+.choice {
+    display: block;
+    margin: 3px;
+}
+
+
+#timer-count{
+    font-size: larger;
+}
+
+#game-over{
+    background-color: #ffffff;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+#results{
+    padding:20px
+}
+#end-options{
+    padding:20px;
+}
+#user-initials {
+    font-family: 'IBM Plex Mono', monospace;
+}
+#score-page {
+    background-color: #f5f400e0;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 5px;
+}
+.display-result{
+    display: block;
+    margin-bottom: 8px;
+    padding: 3px;
+    background-color: var(--dark);
+    color:var(--light);
+    border-radius: 10px;
+}
+
+#page-button{
+    padding: 20px;
+}
