@@ -30,7 +30,7 @@ It was very difficult, after the absence of some classes due to work, to underst
 
 ## Link of the quiz
 
-<a href="https://amarfiguig.github.io/04-Web-APIs/">Deployed Online Coding Quiz</a>
+<a href="https://amarfiguig.github.io/04-Web-APIs/">Link of the Quiz</a>
 
 ## Picture of the finished work 
 
