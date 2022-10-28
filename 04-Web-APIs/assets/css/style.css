@@ -91,7 +91,7 @@ button {
 #style-bg{
     box-sizing: border-box;
     background-color: grey;
-    background-image: url(/assets/images/Quiz.jpg);
+    background-image: url(/04-Web-APIs/assets/images/Quiz.jpg);
     background-size: cover;
     background-position: center center;
     background-blend-mode: multiply;
