@@ -90,7 +90,7 @@ button {
 /* he background image */
 #style-bg{
     box-sizing: border-box;
-    background-image: url(./04-Web-APIs/Assets/Images/Quiz.jpg);
+    background-image: url(https://github.com/amarfiguig/04-Web-APIs/blob/main/Assets/Image/Quiz.jpg);
     background-size: cover;
     background-position: center center;
     background-blend-mode: multiply;
